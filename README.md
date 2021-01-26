@@ -8,7 +8,7 @@
 
 ### Production
 
-- `STRAPI_URL` (defaults to `http://localhost`)
+- `STRAPI_PUBLIC_URL` (defaults to `http://localhost`)
 - `STRAPI_HOST` (defaults to `0.0.0.0`)
 - `STRAPI_PORT` (defaults to `1337`)
 - `DATABASE_HOST` (defaults to `localhost`)
