@@ -15,12 +15,20 @@
       "type": "string"
     },
     "cities": {
-      "via": "country",
-      "collection": "cities"
+      "collection": "cities",
+      "via": "country"
     },
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.image",
+        "blocks.quote",
+        "blocks.richtext"
+      ]
     }
   }
 }
