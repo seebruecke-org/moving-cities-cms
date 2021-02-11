@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "networks",
   "info": {
-    "name": "Networks"
+    "name": "Networks",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -18,9 +19,17 @@
       "targetField": "name"
     },
     "cities": {
-      "via": "networks",
       "collection": "cities",
+      "via": "networks",
       "dominant": true
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.image",
+        "blocks.quote",
+        "blocks.richtext"
+      ]
     }
   }
 }
