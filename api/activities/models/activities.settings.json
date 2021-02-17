@@ -22,7 +22,8 @@
       "components": [
         "blocks.image",
         "blocks.quote",
-        "blocks.richtext"
+        "blocks.richtext",
+        "blocks.accordion"
       ]
     },
     "access_social_rights": {

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_accordions",
+  "info": {
+    "name": "Accordion",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion.item"
+    }
+  }
+}
