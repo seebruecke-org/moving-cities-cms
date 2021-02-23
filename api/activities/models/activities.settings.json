@@ -14,9 +14,6 @@
     "title": {
       "type": "string"
     },
-    "city": {
-      "model": "cities"
-    },
     "content": {
       "type": "dynamiczone",
       "components": [
@@ -43,6 +40,10 @@
     },
     "structural_capacities": {
       "type": "boolean"
+    },
+    "city": {
+      "via": "activities",
+      "model": "cities"
     }
   }
 }

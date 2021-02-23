@@ -15,8 +15,8 @@
       "type": "string"
     },
     "cities": {
-      "collection": "cities",
-      "via": "country"
+      "via": "country",
+      "collection": "cities"
     },
     "slug": {
       "type": "uid",

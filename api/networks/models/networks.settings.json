@@ -19,8 +19,8 @@
       "targetField": "name"
     },
     "cities": {
-      "collection": "cities",
       "via": "networks",
+      "collection": "cities",
       "dominant": true
     },
     "content": {

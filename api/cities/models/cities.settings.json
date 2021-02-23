@@ -76,6 +76,10 @@
         "blocks.activity"
       ],
       "max": 1
+    },
+    "activities": {
+      "collection": "activities",
+      "via": "city"
     }
   }
 }
