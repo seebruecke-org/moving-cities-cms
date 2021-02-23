@@ -2,12 +2,13 @@
   "collectionName": "components_blocks_activities",
   "info": {
     "name": "activity",
-    "icon": "hammer"
+    "icon": "hammer",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "activity": {
-      "model": "activities"
+    "activities": {
+      "collection": "activities"
     }
   }
 }
