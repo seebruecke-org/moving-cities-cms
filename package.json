@@ -10,21 +10,21 @@
     "strapi": "strapi"
   },
   "devDependencies": {
-    "sqlite3": "^5.0.1"
+    "sqlite3": "^5.0.2"
   },
   "dependencies": {
-    "knex": "<0.20.0",
+    "knex": "^0.21.18",
     "mysql": "^2.18.1",
-    "strapi": "3.4.1",
-    "strapi-admin": "3.4.1",
-    "strapi-connector-bookshelf": "3.4.1",
-    "strapi-plugin-content-manager": "3.4.1",
-    "strapi-plugin-content-type-builder": "3.4.1",
-    "strapi-plugin-email": "3.4.1",
+    "strapi": "3.5.1",
+    "strapi-admin": "3.5.1",
+    "strapi-connector-bookshelf": "3.5.1",
+    "strapi-plugin-content-manager": "3.5.1",
+    "strapi-plugin-content-type-builder": "3.5.1",
+    "strapi-plugin-email": "3.5.1",
     "strapi-plugin-graphql": "3.4.1",
-    "strapi-plugin-upload": "3.4.1",
-    "strapi-plugin-users-permissions": "3.4.1",
-    "strapi-utils": "3.4.1"
+    "strapi-plugin-upload": "3.5.1",
+    "strapi-plugin-users-permissions": "3.5.1",
+    "strapi-utils": "3.5.1"
   },
   "author": {
     "name": "Gustav Pursche"
