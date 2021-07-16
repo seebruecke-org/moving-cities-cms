@@ -25,61 +25,20 @@
       "required": true
     },
     "networks": {
+      "via": "cities",
       "collection": "networks",
-      "via": "cities"
+      "dominant": true
     },
     "intro": {
       "type": "text"
     },
     "country": {
-      "model": "countries",
-      "via": "cities"
+      "via": "cities",
+      "model": "countries"
     },
-    "accepts_more_refugees": {
-      "type": "boolean"
-    },
-    "intro_long": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.image",
-        "blocks.richtext",
-        "blocks.quote"
-      ]
-    },
-    "chapter_1": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.image",
-        "blocks.quote",
-        "blocks.richtext"
-      ]
-    },
-    "chapter_2": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.image",
-        "blocks.quote",
-        "blocks.richtext"
-      ]
-    },
-    "chapter_3": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.image",
-        "blocks.quote",
-        "blocks.richtext"
-      ]
-    },
-    "chapter_4": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.activity"
-      ],
-      "max": 1
-    },
-    "activities": {
-      "collection": "activities",
-      "via": "city"
+    "is_featured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

@@ -22,13 +22,9 @@
       "type": "uid",
       "targetField": "name"
     },
-    "content": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.image",
-        "blocks.quote",
-        "blocks.richtext"
-      ]
+    "network": {
+      "via": "countries",
+      "model": "networks"
     }
   }
 }

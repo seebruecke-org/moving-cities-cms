@@ -20,16 +20,11 @@
     },
     "cities": {
       "via": "networks",
-      "collection": "cities",
-      "dominant": true
+      "collection": "cities"
     },
-    "content": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.image",
-        "blocks.quote",
-        "blocks.richtext"
-      ]
+    "countries": {
+      "collection": "countries",
+      "via": "network"
     }
   }
 }

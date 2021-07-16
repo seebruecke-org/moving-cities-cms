@@ -14,15 +14,6 @@
     "title": {
       "type": "string"
     },
-    "content": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.image",
-        "blocks.quote",
-        "blocks.richtext",
-        "blocks.accordion"
-      ]
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
