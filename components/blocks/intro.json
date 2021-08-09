@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_intros",
+  "info": {
+    "name": "Intro",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

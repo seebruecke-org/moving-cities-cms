@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "networks",
+  "collectionName": "approaches",
   "info": {
-    "name": "Networks",
+    "name": "Approach",
     "description": ""
   },
   "options": {
@@ -16,8 +16,10 @@
     }
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
+      "required": true,
+      "unique": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -26,20 +28,28 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "title",
+      "required": true
     },
-    "cities": {
-      "via": "networks",
-      "collection": "cities"
+    "city": {
+      "via": "approach",
+      "model": "cities"
     },
-    "countries": {
-      "via": "network",
-      "collection": "countries"
+    "intro": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "content": {
       "type": "dynamiczone",
       "components": [
-        "blocks.richtext"
+        "blocks.media",
+        "blocks.quote",
+        "blocks.section"
       ],
       "pluginOptions": {
         "i18n": {

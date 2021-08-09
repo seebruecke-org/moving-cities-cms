@@ -10,10 +10,20 @@
     "timestamps": true,
     "draftAndPublish": true
   },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "slug": {
       "type": "uid",
@@ -22,7 +32,12 @@
     },
     "coordinates": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     },
     "networks": {
       "via": "cities",
@@ -30,7 +45,12 @@
       "dominant": true
     },
     "intro": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "country": {
       "via": "cities",
@@ -38,7 +58,49 @@
     },
     "is_featured": {
       "type": "boolean",
-      "default": false
+      "default": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.media",
+        "blocks.section",
+        "blocks.quote"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "approach": {
+      "via": "city",
+      "model": "approach"
+    },
+    "related_approaches": {
+      "collection": "approach"
+    },
+    "related_cities": {
+      "collection": "cities"
+    },
+    "report": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

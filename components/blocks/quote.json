@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_quotes",
+  "info": {
+    "name": "Quote",
+    "icon": "comment-alt"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}

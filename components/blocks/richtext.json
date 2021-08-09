@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_richtexts",
+  "info": {
+    "name": "Richtext",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
