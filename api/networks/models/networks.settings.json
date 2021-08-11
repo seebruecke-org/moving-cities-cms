@@ -28,14 +28,6 @@
       "type": "uid",
       "targetField": "name"
     },
-    "cities": {
-      "via": "networks",
-      "collection": "cities"
-    },
-    "countries": {
-      "via": "network",
-      "collection": "countries"
-    },
     "content": {
       "type": "dynamiczone",
       "components": [
@@ -46,6 +38,16 @@
           "localized": true
         }
       }
+    },
+    "cities": {
+      "via": "networks",
+      "collection": "cities",
+      "dominant": true
+    },
+    "countries": {
+      "via": "networks",
+      "collection": "countries",
+      "dominant": true
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_blocks_media",
   "info": {
     "name": "Media",
-    "icon": "images"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {

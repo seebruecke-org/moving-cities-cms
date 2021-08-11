@@ -39,11 +39,6 @@
         }
       }
     },
-    "networks": {
-      "via": "cities",
-      "collection": "networks",
-      "dominant": true
-    },
     "intro": {
       "type": "text",
       "pluginOptions": {
@@ -51,10 +46,6 @@
           "localized": true
         }
       }
-    },
-    "country": {
-      "via": "cities",
-      "model": "countries"
     },
     "is_featured": {
       "type": "boolean",
@@ -78,10 +69,6 @@
         }
       }
     },
-    "approach": {
-      "via": "city",
-      "model": "approach"
-    },
     "related_approaches": {
       "collection": "approach"
     },
@@ -101,6 +88,18 @@
           "localized": true
         }
       }
+    },
+    "networks": {
+      "via": "cities",
+      "collection": "networks"
+    },
+    "country": {
+      "via": "cities",
+      "model": "countries"
+    },
+    "approaches": {
+      "via": "city",
+      "collection": "approach"
     }
   }
 }

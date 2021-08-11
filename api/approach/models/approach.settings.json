@@ -31,10 +31,6 @@
       "targetField": "title",
       "required": true
     },
-    "city": {
-      "via": "approach",
-      "model": "cities"
-    },
     "intro": {
       "type": "richtext",
       "required": true,
@@ -56,6 +52,10 @@
           "localized": true
         }
       }
+    },
+    "city": {
+      "model": "cities",
+      "via": "approaches"
     }
   }
 }

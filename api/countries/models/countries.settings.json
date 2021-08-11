@@ -24,17 +24,9 @@
         }
       }
     },
-    "cities": {
-      "via": "country",
-      "collection": "cities"
-    },
     "slug": {
       "type": "uid",
       "targetField": "name"
-    },
-    "network": {
-      "via": "countries",
-      "model": "networks"
     },
     "content": {
       "type": "dynamiczone",
@@ -46,6 +38,14 @@
           "localized": true
         }
       }
+    },
+    "networks": {
+      "via": "countries",
+      "collection": "networks"
+    },
+    "cities": {
+      "collection": "cities",
+      "via": "country"
     }
   }
 }
