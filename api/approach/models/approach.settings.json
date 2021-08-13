@@ -56,6 +56,9 @@
     "city": {
       "via": "approaches",
       "model": "cities"
+    },
+    "categories": {
+      "collection": "approch-category"
     }
   }
 }
