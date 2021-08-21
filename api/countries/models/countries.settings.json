@@ -39,10 +39,6 @@
         }
       }
     },
-    "networks": {
-      "via": "countries",
-      "collection": "networks"
-    },
     "cities": {
       "via": "country",
       "collection": "cities"

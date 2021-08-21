@@ -43,11 +43,6 @@
       "via": "networks",
       "collection": "cities",
       "dominant": true
-    },
-    "countries": {
-      "via": "networks",
-      "collection": "countries",
-      "dominant": true
     }
   }
 }
