@@ -61,7 +61,8 @@
       "components": [
         "blocks.media",
         "blocks.section",
-        "blocks.quote"
+        "blocks.quote",
+        "blocks.networks-summary"
       ],
       "pluginOptions": {
         "i18n": {
@@ -119,6 +120,14 @@
         }
       },
       "component": "city.takeaway"
+    },
+    "icon": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_networks_summaries",
+  "info": {
+    "name": "NetworksSummary",
+    "icon": "democrat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
