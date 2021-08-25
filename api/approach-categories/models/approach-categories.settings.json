@@ -32,6 +32,10 @@
       },
       "type": "uid",
       "targetField": "title"
+    },
+    "approaches": {
+      "via": "categories",
+      "collection": "approaches"
     }
   }
 }

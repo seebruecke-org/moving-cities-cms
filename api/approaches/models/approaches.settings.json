@@ -58,6 +58,11 @@
       },
       "component": "helper.summary",
       "required": true
+    },
+    "categories": {
+      "collection": "approach-categories",
+      "via": "approaches",
+      "dominant": true
     }
   }
 }
