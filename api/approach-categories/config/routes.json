@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/approach-categories",
-      "handler": "approach-category.find",
+      "handler": "approach-categories.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/approach-categories/count",
-      "handler": "approach-category.count",
+      "handler": "approach-categories.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/approach-categories/:id",
-      "handler": "approach-category.findOne",
+      "handler": "approach-categories.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/approach-categories",
-      "handler": "approach-category.create",
+      "handler": "approach-categories.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/approach-categories/:id",
-      "handler": "approach-category.update",
+      "handler": "approach-categories.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/approach-categories/:id",
-      "handler": "approach-category.delete",
+      "handler": "approach-categories.delete",
       "config": {
         "policies": []
       }

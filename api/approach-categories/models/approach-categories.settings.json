@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "approach_categories",
   "info": {
-    "name": "Approach Category",
-    "description": ""
+    "name": "Approach Categories"
   },
   "options": {
     "increments": true,
@@ -32,8 +31,7 @@
         }
       },
       "type": "uid",
-      "targetField": "title",
-      "required": true
+      "targetField": "title"
     }
   }
 }

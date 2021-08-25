@@ -63,7 +63,7 @@
       }
     },
     "related_approaches": {
-      "collection": "approach"
+      "collection": "approaches"
     },
     "related_cities": {
       "collection": "cities"
@@ -78,7 +78,7 @@
     },
     "approaches": {
       "via": "city",
-      "collection": "approach"
+      "collection": "approaches"
     },
     "subtitle": {
       "pluginOptions": {

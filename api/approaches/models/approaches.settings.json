@@ -48,9 +48,6 @@
       "via": "approaches",
       "model": "cities"
     },
-    "categories": {
-      "collection": "approach-category"
-    },
     "summary": {
       "type": "component",
       "repeatable": false,
