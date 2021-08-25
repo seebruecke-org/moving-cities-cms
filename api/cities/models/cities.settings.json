@@ -68,20 +68,6 @@
     "related_cities": {
       "collection": "cities"
     },
-    "report": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "networks": {
       "via": "cities",
       "collection": "networks"
@@ -131,6 +117,17 @@
       },
       "component": "helper.summary",
       "required": true
+    },
+    "report": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "component": "city.report"
     }
   }
 }
