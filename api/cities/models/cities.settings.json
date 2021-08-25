@@ -39,14 +39,6 @@
         }
       }
     },
-    "intro": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "is_featured": {
       "type": "boolean",
       "default": false,
@@ -128,6 +120,17 @@
         }
       },
       "type": "string"
+    },
+    "summary": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "helper.summary",
+      "required": true
     }
   }
 }

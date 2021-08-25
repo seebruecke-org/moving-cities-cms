@@ -31,15 +31,6 @@
       "targetField": "title",
       "required": true
     },
-    "intro": {
-      "type": "richtext",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "content": {
       "type": "dynamiczone",
       "components": [
@@ -59,6 +50,17 @@
     },
     "categories": {
       "collection": "approch-category"
+    },
+    "summary": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "helper.summary",
+      "required": true
     }
   }
 }
