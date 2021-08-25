@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/approch-categories",
-      "handler": "approch-category.find",
+      "path": "/approach-categories",
+      "handler": "approach-category.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/approch-categories/count",
-      "handler": "approch-category.count",
+      "path": "/approach-categories/count",
+      "handler": "approach-category.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/approch-categories/:id",
-      "handler": "approch-category.findOne",
+      "path": "/approach-categories/:id",
+      "handler": "approach-category.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/approch-categories",
-      "handler": "approch-category.create",
+      "path": "/approach-categories",
+      "handler": "approach-category.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/approch-categories/:id",
-      "handler": "approch-category.update",
+      "path": "/approach-categories/:id",
+      "handler": "approach-category.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/approch-categories/:id",
-      "handler": "approch-category.delete",
+      "path": "/approach-categories/:id",
+      "handler": "approach-category.delete",
       "config": {
         "policies": []
       }

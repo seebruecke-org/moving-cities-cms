@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "approch_categories",
+  "collectionName": "approach_categories",
   "info": {
-    "name": "Approch Category"
+    "name": "Approach Category",
+    "description": ""
   },
   "options": {
     "increments": true,

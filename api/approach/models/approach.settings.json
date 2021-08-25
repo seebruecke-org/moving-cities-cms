@@ -49,7 +49,7 @@
       "model": "cities"
     },
     "categories": {
-      "collection": "approch-category"
+      "collection": "approach-category"
     },
     "summary": {
       "type": "component",
