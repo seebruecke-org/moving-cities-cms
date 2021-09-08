@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_follow_follower_items",
+  "info": {
+    "name": "follower-item",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

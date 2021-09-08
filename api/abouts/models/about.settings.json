@@ -33,7 +33,8 @@
       "components": [
         "blocks.media",
         "blocks.section",
-        "blocks.intro"
+        "blocks.intro",
+        "blocks.follow"
       ],
       "pluginOptions": {
         "i18n": {
