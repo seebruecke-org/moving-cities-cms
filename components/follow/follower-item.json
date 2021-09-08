@@ -6,11 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "Label": {
+    "description": {
       "type": "string",
       "required": true
     },
-    "URL": {
+    "target": {
       "type": "string",
       "required": true
     }
