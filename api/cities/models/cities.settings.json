@@ -126,7 +126,7 @@
           "localized": true
         }
       },
-      "required": true,
+      "required": false,
       "component": "city.report"
     }
   }
