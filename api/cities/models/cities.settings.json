@@ -87,7 +87,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "takeaways": {
       "type": "component",
@@ -116,7 +116,7 @@
         }
       },
       "component": "helper.summary",
-      "required": true
+      "required": false
     },
     "report": {
       "type": "component",
