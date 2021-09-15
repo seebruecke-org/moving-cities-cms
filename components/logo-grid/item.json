@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_logo_grid_items",
+  "info": {
+    "name": "item",
+    "icon": "cannabis"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

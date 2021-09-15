@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_logo_grid_logo_grids",
+  "info": {
+    "name": "Logo Grid",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "logo-grid.item",
+      "required": true
+    }
+  }
+}

@@ -34,7 +34,8 @@
         "blocks.media",
         "blocks.section",
         "blocks.intro",
-        "blocks.follow"
+        "blocks.follow",
+        "blocks.logo-grid"
       ],
       "pluginOptions": {
         "i18n": {
