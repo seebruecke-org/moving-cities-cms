@@ -62,12 +62,6 @@
         }
       }
     },
-    "related_approaches": {
-      "collection": "approaches"
-    },
-    "related_cities": {
-      "collection": "cities"
-    },
     "networks": {
       "via": "cities",
       "collection": "networks"
