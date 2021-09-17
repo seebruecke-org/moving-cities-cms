@@ -65,9 +65,7 @@
       "dominant": true
     },
     "related_approaches": {
-      "collection": "about",
-      "via": "approaches",
-      "dominant": true
+      "collection": "approaches"
     }
   }
 }
