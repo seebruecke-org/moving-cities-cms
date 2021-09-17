@@ -63,6 +63,11 @@
       "collection": "approach-categories",
       "via": "approaches",
       "dominant": true
+    },
+    "related_approaches": {
+      "collection": "about",
+      "via": "approaches",
+      "dominant": true
     }
   }
 }
