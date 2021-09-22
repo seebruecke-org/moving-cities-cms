@@ -122,6 +122,16 @@
       },
       "required": false,
       "component": "city.report"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "helper.social-metadata"
     }
   }
 }

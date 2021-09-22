@@ -66,6 +66,16 @@
     },
     "related_approaches": {
       "collection": "approaches"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "helper.social-metadata"
     }
   }
 }
