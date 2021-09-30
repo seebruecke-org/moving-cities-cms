@@ -10,7 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "knex": "^0.95.10",
+    "knex": "^0.95.11",
     "mysql": "^2.18.1",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
