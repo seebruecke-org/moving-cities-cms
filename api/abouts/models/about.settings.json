@@ -53,6 +53,15 @@
         }
       },
       "component": "helper.social-metadata"
+    },
+    "menu_sort": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "default": 0
     }
   }
 }
