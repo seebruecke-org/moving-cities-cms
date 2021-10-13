@@ -12,6 +12,9 @@
       "repeatable": true,
       "component": "logo-grid.item",
       "required": true
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
