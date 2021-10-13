@@ -1,7 +1,7 @@
 module.exports = {
   query: `
-    citiesCount(where: JSON): Int!
-    featuredCitiesCount(where: JSON): Int!
+    citiesCount(locale: String, where: JSON): Int!
+    featuredCitiesCount(locale: String, where: JSON): Int!
   `,
   resolver: {
     Query: {
@@ -9,7 +9,10 @@ module.exports = {
         description: 'Return the count of cities',
         resolverOf: 'application::cities.cities.count',
         resolver: async (obj, options, ctx) => {
-          return await strapi.api.cities.services.cities.count(options.where || {});
+          return await strapi.api.cities.services.cities.count({
+            ...(options.where || {}),
+            _locale: options.locale
+          });
         },
       },
 
@@ -21,6 +24,7 @@ module.exports = {
 
           return await strapi.api.cities.services.cities.count({
             ...where,
+            _locale: options.locale,
             is_featured: true
           });
         },
