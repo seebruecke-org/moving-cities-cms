@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menu_items",
+  "info": {
+    "name": "item",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "model": "about"
+    }
+  }
+}
