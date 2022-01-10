@@ -1,6 +1,8 @@
 name: Build Moving Cities CMS
 
 on:
+  push:
+    branches: [ v2 ]
   workflow_dispatch:
     branches: [ main, v2 ]
 
