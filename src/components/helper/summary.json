@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_helper_summaries",
+  "info": {
+    "icon": "list",
+    "description": "",
+    "displayName": "summary"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

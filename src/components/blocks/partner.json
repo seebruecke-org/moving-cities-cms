@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_partners",
+  "info": {
+    "icon": "glass-cheers",
+    "displayName": "Partner"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

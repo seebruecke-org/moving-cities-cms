@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "approach_categories",
+  "info": {
+    "singularName": "approach-category",
+    "pluralName": "approach-categories",
+    "displayName": "Approach-category",
+    "name": "approach-category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "title"
+    },
+    "approaches": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::approach.approach",
+      "mappedBy": "categories"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_city_takeaways",
+  "info": {
+    "icon": "bolt",
+    "displayName": "takeaway"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

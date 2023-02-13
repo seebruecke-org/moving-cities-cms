@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_follows",
+  "info": {
+    "icon": "broadcast-tower",
+    "description": "",
+    "displayName": "Follow"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "follow.follower-item",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

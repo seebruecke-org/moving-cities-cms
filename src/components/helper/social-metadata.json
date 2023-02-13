@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_helper_social_metadata",
+  "info": {
+    "icon": "book-reader",
+    "displayName": "social-metadata"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 300
+    },
+    "image": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_city_reports",
+  "info": {
+    "icon": "book-open",
+    "description": "",
+    "displayName": "report"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "intro": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_menu_items",
+  "info": {
+    "icon": "angle-right",
+    "displayName": "item"
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about.about"
+    }
+  }
+}

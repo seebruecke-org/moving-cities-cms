@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_logo_grid_items",
+  "info": {
+    "icon": "cannabis",
+    "displayName": "item"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": true
+    }
+  }
+}
