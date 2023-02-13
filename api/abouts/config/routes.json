@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/abouts",
-      "handler": "about.find",
+      "handler": "abouts.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/abouts/count",
-      "handler": "about.count",
+      "handler": "abouts.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/abouts/:id",
-      "handler": "about.findOne",
+      "handler": "abouts.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/abouts",
-      "handler": "about.create",
+      "handler": "abouts.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/abouts/:id",
-      "handler": "about.update",
+      "handler": "abouts.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/abouts/:id",
-      "handler": "about.delete",
+      "handler": "abouts.delete",
       "config": {
         "policies": []
       }
