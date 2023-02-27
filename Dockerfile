@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN npm ci --only=production && npm i semver && \
-  NODE_OPTIONS=--max_old_space_size=4096 npm run build -- --clean && \
+  NODE_OPTIONS=--max_old_space_size=4096 npm run build && \
   npm prune --production && \
   mkdir -p /usr/src/app/public/uploads
 
