@@ -12,10 +12,10 @@
   "dependencies": {
     "knex": "^0.95.11",
     "mysql": "^2.18.1",
-    "@strapi/strapi": "4.6.1",
-    "@strapi/plugin-graphql": "4.6.1",
-    "@strapi/plugin-i18n": "4.6.1",
-    "@strapi/plugin-users-permissions": "4.6.1"
+    "@strapi/strapi": "4.9.1",
+    "@strapi/plugin-graphql": "4.9.1",
+    "@strapi/plugin-i18n": "4.9.1",
+    "@strapi/plugin-users-permissions": "4.9.1"
   },
   "author": {
     "name": "Gustav Pursche"

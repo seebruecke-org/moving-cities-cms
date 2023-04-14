@@ -1,4 +1,4 @@
-FROM node:14.17.6-alpine as build
+FROM node:14.21.3-alpine as build
 ENV NODE_ENV=production
 #USER node
 
@@ -11,7 +11,7 @@ RUN npm ci --only=production && npm i semver && \
   mkdir -p /usr/src/app/public/uploads
 
 
-FROM node:14.17.6-alpine
+FROM node:14.21.3-alpine
 ENV NODE_ENV=production
 
 WORKDIR /usr/src/app
