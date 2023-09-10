@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_download_sections",
+  "info": {
+    "displayName": "Download Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.richtext"
+    },
+    "media": {
+      "displayName": "media",
+      "type": "component",
+      "repeatable": true,
+      "component": "helper.media"
+    }
+  }
+}

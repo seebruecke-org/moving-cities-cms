@@ -30,7 +30,8 @@
       "components": [
         "blocks.media",
         "blocks.quote",
-        "blocks.section"
+        "blocks.section",
+        "blocks.download-section"
       ]
     }
   }
