@@ -33,6 +33,9 @@
         "blocks.section",
         "blocks.download-section"
       ]
+    },
+    "teaser": {
+      "type": "text"
     }
   }
 }
