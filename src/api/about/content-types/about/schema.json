@@ -5,11 +5,10 @@
     "singularName": "about",
     "pluralName": "abouts",
     "displayName": "About",
-    "name": "about"
+    "name": "about",
+    "description": ""
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": true
   },
   "pluginOptions": {
@@ -38,7 +37,8 @@
         "blocks.intro",
         "blocks.follow",
         "blocks.logo-grid",
-        "blocks.partner"
+        "blocks.partner",
+        "blocks.brevo-newsletter-form"
       ],
       "pluginOptions": {
         "i18n": {

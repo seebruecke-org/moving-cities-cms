@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_brevo_newsletter_forms",
+  "info": {
+    "displayName": "Brevo newsletter form",
+    "icon": "cast",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "terms_label": {
+      "type": "richtext",
+      "required": true
+    },
+    "success_message": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
