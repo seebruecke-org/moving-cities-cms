@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_teams",
+  "info": {
+    "displayName": "Team",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "team_member": {
+      "displayName": "Team-Member",
+      "type": "component",
+      "repeatable": true,
+      "component": "team.team-member"
+    }
+  }
+}

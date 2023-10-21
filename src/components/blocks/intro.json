@@ -2,13 +2,17 @@
   "collectionName": "components_blocks_intros",
   "info": {
     "icon": "align-center",
-    "displayName": "Intro"
+    "displayName": "Intro",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "align_left": {
+      "type": "boolean"
     }
   }
 }

@@ -38,7 +38,8 @@
         "blocks.follow",
         "blocks.logo-grid",
         "blocks.partner",
-        "blocks.brevo-newsletter-form"
+        "blocks.brevo-newsletter-form",
+        "blocks.team"
       ],
       "pluginOptions": {
         "i18n": {
