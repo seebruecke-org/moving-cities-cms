@@ -31,11 +31,16 @@
         "blocks.media",
         "blocks.quote",
         "blocks.section",
-        "blocks.download-section"
+        "blocks.download-section",
+        "blocks.video-embed"
       ]
     },
     "teaser": {
       "type": "text"
+    },
+    "date": {
+      "type": "date",
+      "required": true
     }
   }
 }

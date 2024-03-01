@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_video_embeds",
+  "info": {
+    "displayName": "Video Embed",
+    "icon": "play",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "regex": "(vimeo.*\\/(\\d+))|(^.*(youtu.be\\/|v\\/|u\\/\\w\\/|embed\\/|watch\\?v=|&v=)([^#&?]*).*)"
+    }
+  }
+}
