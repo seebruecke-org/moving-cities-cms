@@ -2,14 +2,27 @@
   "collectionName": "components_menu_items",
   "info": {
     "icon": "angle-right",
-    "displayName": "item"
+    "displayName": "item",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "about": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::about.about"
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "page": {
+      "type": "enumeration",
+      "enum": [
+        "cities",
+        "featuredCities",
+        "networks",
+        "approaches",
+        "search",
+        "news",
+        "about"
+      ],
+      "required": true
     }
   }
 }

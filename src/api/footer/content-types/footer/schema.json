@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "menus",
+  "collectionName": "footers",
   "info": {
-    "singularName": "menu",
-    "pluralName": "menus",
-    "displayName": "Menu",
-    "name": "menu",
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
     "description": ""
   },
   "options": {
@@ -17,7 +16,24 @@
     }
   },
   "attributes": {
+    "instagram_url": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "x_url": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
     "main_items": {
+      "displayName": "Page item",
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -25,7 +41,7 @@
           "localized": true
         }
       },
-      "component": "menu.item"
+      "component": "footer.page-item"
     },
     "secondary_items": {
       "type": "component",
@@ -35,7 +51,7 @@
           "localized": true
         }
       },
-      "component": "menu.item"
+      "component": "footer.page-item"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_page_items",
+  "info": {
+    "displayName": "Page item",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}

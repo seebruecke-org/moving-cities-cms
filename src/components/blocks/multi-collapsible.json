@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_multi_collapsibles",
+  "info": {
+    "displayName": "Multi Collapsible",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "collapsibles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.collapsible"
+    }
+  }
+}

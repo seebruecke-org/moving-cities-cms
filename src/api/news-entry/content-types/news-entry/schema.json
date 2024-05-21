@@ -32,7 +32,8 @@
         "blocks.quote",
         "blocks.section",
         "blocks.download-section",
-        "blocks.video-embed"
+        "blocks.video-embed",
+        "blocks.multi-collapsible"
       ]
     },
     "teaser": {
