@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_intro_highlight_networks",
+  "info": {
+    "displayName": "Highlight - Network"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "network": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::network.network"
+    }
+  }
+}

@@ -10,10 +10,10 @@
     "title": {
       "type": "string"
     },
-    "page": {
+    "about": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::page.page"
+      "target": "api::about.about"
     }
   }
 }

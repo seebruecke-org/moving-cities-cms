@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_intro_highlight_cities",
+  "info": {
+    "displayName": "Highlight - City",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::city.city"
+    }
+  }
+}

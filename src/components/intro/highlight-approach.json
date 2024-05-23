@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_intro_highlight_approaches",
+  "info": {
+    "displayName": "Highlight - Approach"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "approach": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::approach.approach"
+    }
+  }
+}

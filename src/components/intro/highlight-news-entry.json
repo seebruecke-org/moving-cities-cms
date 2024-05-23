@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_intro_highlight_news_entries",
+  "info": {
+    "displayName": "Highlight - News Entry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "news_entry": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::news-entry.news-entry"
+    }
+  }
+}

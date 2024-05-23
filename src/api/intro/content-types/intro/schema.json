@@ -5,11 +5,10 @@
     "singularName": "intro",
     "pluralName": "intros",
     "displayName": "Intro",
-    "name": "intro"
+    "name": "intro",
+    "description": ""
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": false
   },
   "pluginOptions": {
@@ -45,6 +44,21 @@
         }
       },
       "component": "helper.social-metadata"
+    },
+    "highlights": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "intro.highlight-approach",
+        "intro.highlight-city",
+        "intro.highlight-network",
+        "intro.highlight-news-entry"
+      ],
+      "max": 3
     }
   }
 }
