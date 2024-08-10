@@ -850,6 +850,13 @@ export interface ApiAboutAbout extends Schema.CollectionType {
         };
       }> &
       Attribute.DefaultTo<false>;
+    show_menu: Attribute.Boolean &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }> &
+      Attribute.DefaultTo<true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
