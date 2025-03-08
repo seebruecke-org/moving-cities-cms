@@ -7,8 +7,8 @@
 module.exports = {
   subscribe: async (ctx, next) => {
     try {
-      const { email, firstname } = ctx.request.body;
-      ctx.body = await strapi.service("api::brevo.brevo").createContact(email, firstname);
+      const { email, firstname, newsletterUrl } = ctx.request.body;
+      ctx.body = await strapi.service("api::brevo.brevo").createContact(email, firstname, newsletterUrl);
     } catch (err) {
       console.log(err);
       ctx.send(500);

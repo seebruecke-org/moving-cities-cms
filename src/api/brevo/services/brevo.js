@@ -5,21 +5,23 @@
  */
 
 module.exports = () => ({
-  createContact: async (email, firstname) => {
+  createContact: async (email, firstname, newsletterUrl) => {
     try {
       let Brevo = require('@getbrevo/brevo');
       let defaultClient = Brevo.ApiClient.instance;
       let apiKey = defaultClient.authentications['api-key'];
       apiKey.apiKey = process.env.BREVO_API_KEY;
       let apiInstance = new Brevo.ContactsApi();
-      let createContact = new Brevo.CreateContact();
+      let createContact = new Brevo.CreateDoiContact();
       createContact.email = email;
-      createContact.listIds = [parseInt(process.env.BREVO_LIST_ID)];
+      createContact.includeListIds = [parseInt(process.env.BREVO_LIST_ID)];
+      createContact.templateId = parseInt(process.env.BREVO_TEMPLATE_ID);
+      createContact.redirectionUrl = `${newsletterUrl}?success=true`;
       createContact.attributes = {
         FNAME: firstname
       };
 
-      await apiInstance.createContact(createContact);
+      await apiInstance.createDoiContact(createContact);
       return {
         success: true
       }
