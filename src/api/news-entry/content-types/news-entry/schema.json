@@ -22,9 +22,6 @@
       "targetField": "title",
       "required": true
     },
-    "region": {
-      "type": "string"
-    },
     "content": {
       "type": "dynamiczone",
       "components": [
@@ -42,6 +39,21 @@
     "date": {
       "type": "date",
       "required": true
+    },
+    "isPinned": {
+      "type": "boolean",
+      "default": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "category": {
+      "type": "string"
     }
   }
 }

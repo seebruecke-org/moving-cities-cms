@@ -1496,7 +1496,6 @@ export interface ApiNewsEntryNewsEntry extends Schema.CollectionType {
     title: Attribute.String & Attribute.Required & Attribute.Unique;
     slug: Attribute.UID<'api::news-entry.news-entry', 'title'> &
       Attribute.Required;
-    region: Attribute.String;
     content: Attribute.DynamicZone<
       [
         'blocks.media',
@@ -1509,6 +1508,9 @@ export interface ApiNewsEntryNewsEntry extends Schema.CollectionType {
     >;
     teaser: Attribute.Text;
     date: Attribute.Date & Attribute.Required;
+    isPinned: Attribute.Boolean & Attribute.DefaultTo<false>;
+    image: Attribute.Media;
+    category: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
